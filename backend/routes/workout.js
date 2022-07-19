@@ -13,8 +13,6 @@ const {
 router.get('/' ,getWorkouts)
  
 
-})
-
 //GET a single
 router.get('/:id', getWorkout)
 
