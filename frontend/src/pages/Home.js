@@ -19,7 +19,7 @@ const Home = () => {
     }
 
     fetchWorkouts()
-  }, [workouts])
+  }, [dispatch])
 
   return (
     <div className="home">
