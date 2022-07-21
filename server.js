@@ -21,7 +21,7 @@ app.use((req,res ,next) =>{
 app.use('/api/workout',workoutRoutes)
 
 //connect to db
-mongoose.connect(process.env.MONGO_URI || 5000)
+mongoose.connect(process.env.MONGO_URI || 5000 , {useNewUrlParser: true})
      .then(()=> {
           //listen to port
           
