@@ -7,7 +7,7 @@ const {
      getWorkouts,
      deleteWorkout,
      updateWorkout
-/////
+//////
 
 } = require('../controllers/workoutController')
 
